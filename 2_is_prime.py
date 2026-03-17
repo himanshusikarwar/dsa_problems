@@ -8,8 +8,13 @@ class Solution:
             if n%i == 0:
                 if i != n//i:
                     cnt += 2
+                    if cnt > 2 :
+                        return 0 
                 else:
                     cnt += 1
-        return cnt
-        
+        if cnt == 2:
+            return 1 
+        else:
+            return 0 
+
         
