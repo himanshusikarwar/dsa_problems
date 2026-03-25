@@ -18,6 +18,4 @@ class Solution:
                 return 1 
             s += 1 
             e += 1 
-        return 0 
-        
-        
+        return 0
