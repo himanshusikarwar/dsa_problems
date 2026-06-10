@@ -18,6 +18,3 @@ class Solution:
                         return 1 
             return 0 
         return is_path(1, A)
-
-
-        
