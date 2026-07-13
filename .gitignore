@@ -1,0 +1,8 @@
+# Non-code files
+*.docx
+*.doc
+*.pdf
+
+# OS files
+.DS_Store
+Thumbs.db
